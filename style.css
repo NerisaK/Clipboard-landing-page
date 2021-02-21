@@ -55,6 +55,8 @@ img {max-width: 100%; margin: 1.5rem auto;}
 
 .button:hover {opacity: 0.7}
 
+table {display: none;}
+
 footer {
     background-color: hsl(201, 11%, 95%);
     padding-bottom: 2rem;
@@ -99,11 +101,13 @@ footer img {max-width: 15%; padding-top: 2.5rem;}
 
     .access {clear: both;}
     
-    .tools {flex-basis: 30%;}
-    .all-tools {display: flex; justify-content: center;}
+    .all-tools {display: none;}
+    table {display: initial;}
+    td {width: 33%; vertical-align: text-top;}
 
     .companies {margin-top: 100px;}
-    .companies li {display: inline; margin: 0 2.5rem; justify-self: left;}
+    .companies li {display: inline; margin: 0 2rem; justify-self: left;}
+    .companies img {max-width: 12%;}
 
     .info {display: flex; flex-wrap: wrap;}
 
@@ -123,5 +127,4 @@ footer img {max-width: 15%; padding-top: 2.5rem;}
     .social-icons {display: block; width: 25%}   
     
     footer p {margin: 2.5rem 0.5rem 0 0; display: inline-block;} 
-}
-
+}    
